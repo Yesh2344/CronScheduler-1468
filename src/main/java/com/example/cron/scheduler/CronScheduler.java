@@ -54,6 +54,7 @@ public class CronScheduler {
         } else {
             logger.warn("CronScheduler already started.");
         }
+// kept it simple here
     }
 
     /**
