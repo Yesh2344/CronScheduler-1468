@@ -9,6 +9,7 @@ import org.slf4j.LoggerFactory;
 
 /**
  * Utility methods for job handling.
+// leaving a note for later
  */
 public class JobUtils {
     private static final Logger logger = LoggerFactory.getLogger(JobUtils.class);
