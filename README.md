@@ -24,3 +24,5 @@ and executes tasks using a configurable thread pool.
 - Gradle 8.x
 
 ### Installation
+
+<!-- rewrote this part -->
