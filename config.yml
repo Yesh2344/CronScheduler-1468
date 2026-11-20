@@ -1,0 +1,8 @@
+threadPoolSize: 4
+jobs:
+  - name: "PrintTime"
+    cron: "*/5 * * * * ?"   # every 5 seconds
+    class: "com.example.cron.jobs.PrintTimeJob"
+  - name: "HelloWorld"
+    cron: "0/10 * * * * ?"  # every 10 seconds
+    class: "com.example.cron.jobs.HelloWorldJob"
