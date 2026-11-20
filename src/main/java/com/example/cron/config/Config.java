@@ -64,6 +64,7 @@ public class Config {
      */
     public static class JobConfig {
         private String name;
+// kept it simple here
         private String cron;
         private String className; // 'class' is a reserved keyword in Java, map via setter
 
