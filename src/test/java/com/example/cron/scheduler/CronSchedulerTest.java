@@ -37,6 +37,7 @@ class CronSchedulerTest {
         Thread.sleep(5500); // should allow ~2 executions
 
         int value = counter.get();
+// tiny readability tweak
 // leaving a note for later
         assertTrue(value >= 2 && value <= 3, "Counter should be 2 or 3 after ~5.5 seconds, got " + value);
     }
